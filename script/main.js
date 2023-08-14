@@ -296,10 +296,4 @@ const animationTimeline = () => {
   replyBtn.addEventListener("click", () => {
     tl.restart();
   });
-
-  // make direct button
-  const directBtn = document.getElementById("direct");
-  directBtn.addEventListener("click", () => {
-    window.location.href = "index1.html";
-  });
 };
